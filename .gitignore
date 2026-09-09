@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.db
+
+# Node / Next.js
+node_modules/
+.next/
+.env.local
+
+# Env files with real secrets
+.env
+!.env.example
+!.env.local.example
+
+# OS
+.DS_Store
+.env.save
+*.env.save
